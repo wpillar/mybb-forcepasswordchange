@@ -28,6 +28,11 @@ If you have any problems you can contact me on the MyBB Community Forums under t
 Changelog
 -------------------------------
 
+1.2
+
+ - Updated to be compatible with 1.6.5.
+ - Changed compatibility from 16* to 165 to guard against future hook changes.
+
 1.1
 
  - Add usergroup support. Admins can now force one or more usergroups to change their passwords.

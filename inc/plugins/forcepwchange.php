@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Force Password Change Plugin 1.1
+ * Force Password Change Plugin 1.2
  * Author: Will Pillar
  * Copyright 2010 Will Pillar, All Rights Reserved
  */
@@ -19,7 +19,7 @@ $plugins->add_hook("usercp_do_password_end", "forcepwchange_password_changed");
 $plugins->add_hook('usercp_password', 'forcepwchange_alert_handler');
 
 function forcepwchange_info() {
-    $version = '1.1';
+    $version = '1.2';
     $plugin = 'Force Password Change';
     $author = 'Will Pillar';
     return array(
